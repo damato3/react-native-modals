@@ -27,7 +27,7 @@ class Overlay extends Component {
     };
   }
 
-  componentWillReceiveProps(nextProps: OverlayType) {
+  componentDidUpdate(nextProps: OverlayType) {
     const {
       showOverlay,
       useNativeDriver,
